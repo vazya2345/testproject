@@ -1,0 +1,140 @@
+body{
+  background-color: #2D3035;
+}
+
+.contentwhite{
+  background-color: white;
+  width: 100%;
+  margin:0;
+  padding:0px;
+  
+}
+
+.header{
+  margin: 40px;
+}
+
+.menu{
+
+}
+.logo img{
+  width: 15%;
+  margin: 20px;
+}
+.image{
+  background-image: url('../img/image.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 15%;
+  height: 200px;
+}
+
+.myform-content{
+  font-size: 14px;
+}
+.myform-content label{
+  color: white;
+  margin: 20px;
+}
+.myform-content label span{
+  color: red;
+  font-weight: bold;
+  padding: 5px;
+}
+.myform-content input[type="text"],.myform-content input[type="email"],.myform-content textarea,.myform-content input[type="text"]:focus,.myform-content input[type="email"]:focus,.myform-content textarea:focus{
+  background-color: #2D3035;
+  color: #fef;
+}
+
+.myform-content .btn{
+  border-radius: 0px;
+  margin-top: 30px;
+}
+.myform-content textarea{
+  height: 65%;
+}
+
+
+
+
+
+.contentwhite .row{
+  padding: 40px;
+  text-align: center;
+}
+.contentwhite h1{
+  text-align: center;
+  font-weight: bold;
+  padding: 50px 0;
+}
+
+.contentwhite .row>div{
+  margin: 40px;
+  padding: 0;
+  display: block;
+  height: 250px;
+  max-height: 500px;
+}
+
+.contentwhite .row>div.odd{
+ background-color: #E9EEF2;
+ color: #4C596C;
+}
+
+.contentwhite .row>div.even{
+ background-color: #DFEBDF;
+ color: #58AD52
+}
+
+.contentwhite .row>div.odd .com_name{
+  background-color: #4C596C;
+}
+
+.contentwhite .row>div.even .com_name{
+  background-color: #58AD52;
+}
+
+.contentwhite .row>div .com_name{
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+}
+.contentwhite .row>div .com_mail{
+  font-weight: bold;
+  margin: 30px;
+}
+
+.contentwhite .row>div .com_comment{
+  margin: 20px;
+}
+
+
+
+
+
+
+
+#footer .social{
+  float: right;
+  color: white;
+  margin: 30px 70px;
+}
+
+
+.btn-social{
+  border-radius: 20px;
+  border: 1px solid #626262;
+  padding: 5px;
+  width: 40px;
+  text-align: center;
+  margin: 0 10px;
+}
+.btn-social span{
+  color: #626262;
+}
+.btn-social:hover span{
+  color: #fff;
+}
+.btn-social:hover{
+  border-color: #fff;
+}
