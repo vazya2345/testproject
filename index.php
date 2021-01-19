@@ -39,7 +39,7 @@
 				<div class="row">
 				  <div class="col-md-2 offset-md-10">
 				  	
-				  	<button id='inpsubmit' class="col-md-12 btn btn-danger">Записать</button>
+				  	<button id='inpsubmit' class="col-md-12 btn btn-danger">Записать?</button>
 				  </div>
 				</div>
 				
